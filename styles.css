@@ -1,0 +1,103 @@
+body {
+    background-color: #000000;
+    font-family: Arial;
+}
+
+main {
+    background-color: #ffffff;
+    padding-left: 10px;
+    width: 1310px;
+    margin: 0 auto;
+}
+
+nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown {
+    text-transform: uppercase;
+}
+
+.column {
+    display: inline-block;
+    margin-left: 0;
+    width: 420px;
+    padding: 2px;
+}
+.portrait {
+    height: 630px;
+}
+
+.row {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.column {
+    position: relative;
+}
+
+.caption-white {
+    color: #ffffff;
+}
+
+.caption-top-left {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.caption-chile {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.caption-bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.caption-bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+/*#contact {
+    background-color: #000000;
+    color: #ffffff;
+    display: block;
+}
+
+.contact-form h2, p {
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+input::placeholder {
+    color: #007D7B;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    width: 450px;
+    padding: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+}
+
+.button-style {
+    padding: 9px 100px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007D7B;
+    color: #ffffff;
+    border-radius: 6px;
+}*/
