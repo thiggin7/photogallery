@@ -8,7 +8,22 @@
     <title>Photo Gallery</title>
 </head>
 <body>
-    <main>
+    <!--section for logo and navigation begin-->
+    <header>
+        <div class="logo"><h1>TK Photography</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top" class="top"><span>^</span>top</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!--section for logo and navigation end-->
+    <main id="container">
+        <!--Photo gallery section begins-->
         <section>
             <h2 id="gallery">Gallery</h2>
             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
@@ -28,7 +43,6 @@
                         <img src="images/Hawaii.png"
                         alt="Mountain and ocean in Hawaii">
                         <p class="caption-bottom-right caption-white">Hawaii, 2010</p>
-
                 </div>
             </div>
 
@@ -36,17 +50,14 @@
                 <div class="column">
                         <img src="images/Iran.png" alt="Mountains in Iran">
                         <p class="caption-top-left">Iran, 1999</p>
-
                 </div>
                 <div class="column">
                         <img src="images/Ireland.png" alt="Hills in Ireland">
                         <p class="caption-bottom-right caption-white">Ireland, 2012</p>
-
                 </div>
                 <div class="column">
                         <img src="images/Italy.png" alt="Lake by the mountains in Italy">
                         <p class="caption-bottom-left caption-white">Italy, 2015</p>
-
                 </div>
             </div>
 
@@ -82,6 +93,8 @@
                 </div>
             </div>
         </section>
+        <!--Photo gallery section ends-->
+
         <!--<section id= "contact" class="contact-form">
             <h2>Contact</h2>
             <p>Please fill out this form and I&apos;ll connect with you soon.</p>

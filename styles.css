@@ -3,16 +3,63 @@ body {
     font-family: Arial;
 }
 
-main {
-    background-color: #ffffff;
+#container, header {
     padding-left: 10px;
     width: 1310px;
     margin: 0 auto;
 }
 
-nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown {
+#container {
+    background-color: #ffffff;
+    clear: both;
+}
+
+nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown, .row {
     text-transform: uppercase;
 }
+
+.logo {
+    color: #007D7B;
+}
+
+h1 {
+    float: left;
+    display: block;
+    padding-left: 40px;
+}
+ 
+nav {
+    float: right;
+    margin: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+ 
+ nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+}
+ 
+ nav a:hover {
+    background-color:#007D7B;
+    color: #ffffff;
+}
+ 
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #007D7B;
+}
+ 
+.top:hover {
+    background-color: #ffffff;
+    color: #007D7B;
+}
+
 
 .column {
     display: inline-block;
@@ -26,7 +73,6 @@ nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown {
 
 .row {
     position: relative;
-    text-transform: uppercase;
 }
 
 .column {
