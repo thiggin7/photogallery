@@ -4,7 +4,6 @@ body {
 }
 
 #container, header {
-    padding-left: 10px;
     width: 1310px;
     margin: 0 auto;
 }
@@ -12,6 +11,8 @@ body {
 #container {
     background-color: #ffffff;
     clear: both;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown, .row {
@@ -23,11 +24,16 @@ nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown, .row {
 }
 
 h1 {
+    padding-left: 10px;
     float: left;
     display: block;
     padding-left: 40px;
 }
- 
+
+h2 {
+    font-size: 40px;
+}
+
 nav {
     float: right;
     margin: 20px;
@@ -60,22 +66,62 @@ nav ul li {
     color: #007D7B;
 }
 
+span {
+    position: absolute;
+    bottom: 35px;
+    left: 30px
+}
 
-.column {
-    display: inline-block;
-    margin-left: 0;
+.tk-photo {
+    width: 850px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.about-content {
     width: 420px;
-    padding: 2px;
-}
-.portrait {
-    height: 630px;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -20px;
 }
 
-.row {
+.about-content > p {
+    font-size: 20px;
+}
+
+.gallery-section {
+    clear: both;
+}
+
+.gallery-header {
+    padding-left: 30px;
+    line-height: 0.4;
+    padding-bottom: 15px;
+}
+
+.gallery-top {
+    padding-top: 10px;
+}
+
+.gallery-paragraph {
+    font-size: 20px;
+}
+
+.fig-column {
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: -15px;
+}
+
+.fig-row {
     position: relative;
+    margin-left: 20px;
 }
 
-.column {
+.fig-column {
     position: relative;
 }
 
@@ -85,40 +131,47 @@ nav ul li {
 
 .caption-top-left {
     position: absolute;
-    top: 0px;
-    left: 10px;
-}
-
-.caption-chile {
-    position: absolute;
-    top: 0px;
+    top: 10px;
     left: 10px;
 }
 
 .caption-bottom-right {
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     right: 10px;
 }
 
 .caption-bottom-left {
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 10px;
 }
-/*#contact {
-    background-color: #000000;
+
+#contact {
     color: #ffffff;
-    display: block;
 }
 
-.contact-form h2, p {
+form {
+    width: 850px;
+    margin: 0 auto;
+}
+
+#contact h2 , #contact p {
     text-align: center;
+    line-height: 0.5;
+}
+
+#contact h2 {
+    font-size: 40px;
+}
+
+#contact p {
+    font-size: 20px;
 }
 
 label {
     font-size: 16px;
-    padding: 15px 0;
+    line-height: 2.5;
 }
 
 input::placeholder {
@@ -127,23 +180,29 @@ input::placeholder {
 }
 
 input[type="text"], input[type="email"] {
-    width: 450px;
+    width: 100%;
     padding: 8px;
     display: block;
-    margin: 0 auto;
 }
 
 button {
     cursor: pointer;
     position: relative;
-    left: 15px;
+    left: 250px;
 }
 
 .button-style {
-    padding: 9px 100px;
+    padding: 9px 150px;
     margin: 10px;
     font-size: 16px;
     background-color: #007D7B;
     color: #ffffff;
-    border-radius: 6px;
-}*/
+    border-radius: 12px;
+}
+
+footer {
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 20px;
+    text-align: center;
+}
