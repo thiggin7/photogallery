@@ -3,6 +3,7 @@ body {
     font-family: Arial;
 }
 
+/*White container*/
 #container, header {
     width: 1310px;
     margin: 0 auto;
@@ -19,6 +20,7 @@ nav, label, h1, h2, figcaption, button, footer, input:placeholder-shown, .row {
     text-transform: uppercase;
 }
 
+/*Navigation*/
 .logo {
     color: #007D7B;
 }
@@ -32,6 +34,12 @@ h1 {
 
 h2 {
     font-size: 40px;
+}
+
+nav h2 {
+    visibility: hidden;
+    font-size: xx-small;
+    line-height: 0;
 }
 
 nav {
@@ -72,6 +80,7 @@ span {
     left: 30px
 }
 
+/*About section*/
 .tk-photo {
     width: 850px;
     float: left;
@@ -91,6 +100,7 @@ span {
     font-size: 20px;
 }
 
+/*Gallery section*/
 .gallery-section {
     clear: both;
 }
@@ -147,6 +157,7 @@ span {
     left: 10px;
 }
 
+/*Contact form section*/
 #contact {
     color: #ffffff;
 }
@@ -200,6 +211,7 @@ button {
     border-radius: 12px;
 }
 
+/*Footer section*/
 footer {
     font-size: 16px;
     color: #ffffff;
